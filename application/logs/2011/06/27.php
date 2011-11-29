@@ -1,0 +1,5 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2011-06-27 05:31:35 --- ERROR: ErrorException [ 1 ]: Class Kohana_Auth_ORM contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Kohana_Auth::password, Kohana_Auth::check_password) ~ APPPATH/classes/kohana/auth/orm.php [ 60 ]
+2011-06-27 05:32:14 --- ERROR: ErrorException [ 1 ]: Class Auth_ORM contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Kohana_Auth::password, Kohana_Auth::check_password) ~ MODPATH/orm/classes/auth/orm.php [ 3 ]
+2011-06-27 05:32:25 --- ERROR: ErrorException [ 1 ]: Class Kohana_Auth_ORM contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Kohana_Auth::password, Kohana_Auth::check_password) ~ APPPATH/classes/kohana/auth/orm.php [ 60 ]

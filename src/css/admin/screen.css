@@ -1,0 +1,140 @@
+/***override defaults***/
+input[type=text],
+input[type=password],
+textarea{
+	background: #fff;
+}
+
+input[type=text]:hover,
+input[type=text]:focus,
+input[type=password]:hover,
+input[type=password]:focus,
+textarea:hover,
+textarea:focus{
+	background: #ffe;
+	border: 1px solid #ccb;
+}
+
+html{height: 100%;
+}
+
+body{background:#eee;height: 100%;
+}
+/***override defaults***/
+#core-wrapper{background:#fff;
+	width: 960px;
+	margin: 0 auto;
+	/*height: 100%;*/
+}
+
+#login-wrapper fieldset{
+	width: 250px;
+	margin-left: 300px;
+}
+
+#header{height: 100px;background:#ddd;
+}
+
+#menu-wrapper{
+	float: left;
+	width: 200px;
+}
+
+#menu-wrapper ul{
+	padding: 0;
+	margin: 10px;
+	list-style: none;
+}
+
+#menu-wrapper li{
+	margin-bottom: 5px;
+}
+
+#menu-wrapper li:last-child{
+	margin: 0;
+}
+
+#menu-wrapper a,
+#menu-wrapper a:visited{background:#999;text-decoration: none;color: #fff;cursor: pointer;;
+	display: block;
+	font-size: 13px;
+	letter-spacing:3px;
+}
+
+#menu-wrapper a:hover{background: #aaa;
+}
+
+#menu-wrapper span{
+	display: block;
+	padding: 5px;
+}
+
+#content-wrapper{
+	float: left;
+	width: 740px;
+	padding: 10px;
+}
+
+#content-wrapper h1{
+	font-family: 'trebuchet ms', arial, tahoma, verdana, helvetica, san-serif;
+	font-style: italic;
+}
+
+#pages{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#pages li{
+	margin-bottom: 5px;
+}
+
+#pages a,
+#pages a:visited{background: #ccc;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #000;
+}
+
+#pages a:hover{background: #eee;
+}
+
+#content-wrapper h1{
+	margin-bottom: 20px;
+}
+
+#hint{
+	border: 1px solid #ccc !important;
+	-moz-box-shadow: 1px 1px 6px #ccc;
+	-webkit-box-shadow: 1px 1px 6px #ccc;
+	box-shadow: 1px 1px 6px #ccc;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999');
+}
+
+legend.help{
+	padding-right: 21px;
+	background-image: url(../../img/icons/help.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+input[type=text],
+input[type=password]{
+	width: 300px;
+}
+
+input#title{
+	font-family: 'trebuchet ms', arial, tahoma, verdana, helvetica, san-serif;
+	font-size: 18px;
+	width: 600px;
+}
+
+textarea{
+	width: 600px;
+	height: 200px;
+}
